@@ -92,7 +92,7 @@ main {
     
 
     .head {
-        padding: 100px 25px;
+        padding: 125px 25px;
 
         background: radial-gradient(circle, transparent 20%, var(--background) 20%, var(--background) 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, var(--background) 20%, var(--background) 80%, transparent 80%, transparent) 20px 20px, linear-gradient(rgba(203, 137, 186, 0.1) 1.6px, transparent 1.6px) 0 -0.8px, linear-gradient(90deg, rgba(203, 137, 186, 0.1) 1.6px, var(--background) 1.6px) -0.8px 0;
         background-size: 40px 40px, 40px 40px, 20px 20px, 20px 20px;
@@ -186,7 +186,7 @@ main {
     .stack {
         text-align: center;
         padding: 25px;
-        margin: 75px auto;
+        margin: 100px auto;
         max-width: 1000px;
 
         @media (max-width: 360px) {
@@ -231,7 +231,7 @@ main {
         .about {
             display: flex;
             gap: 50px;
-            margin: 75px auto;
+            margin: 100px auto;
             padding: 25px;
             max-width: 1000px;
 
@@ -290,7 +290,7 @@ main {
             flex-direction: column;
             gap: 30px;
             padding: 25px;
-            margin: 75px auto 25px;
+            margin: 100px auto 25px;
             max-width: 1000px;
 
             @media (max-width: 360px) {
